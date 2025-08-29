@@ -11,7 +11,10 @@ echo
 
 # Authentication check
 if [ "$username" = "admin" ] && [ "$password" = "testyantra123" ]; then
-    echo "Authentication Successful"
+    echo "Authentication Successful (Welcome Admin)"
+elif [ "$username" = "Developer" ] && [ "$password" = "Fireflink@123" ]; then
+    echo "Authentication Successful (Welcome Developer)"
 else
     echo "Authentication Unsuccessful"
 fi
+
